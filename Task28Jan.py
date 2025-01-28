@@ -1,3 +1,4 @@
+#Task 1: Loop Through a List
 numbers = [10, 20, 30, 40, 50]
 
 #loop with list and printing the numbers multiplied by 2
@@ -7,7 +8,7 @@ for num in numbers:
 print("Sum of numbers:", sum(numbers))
 
 
-#Task:      filtered list using list comprehension
+#Task 2:  filtered list using list comprehension
 numbers = [5, 12, 17, 24, 35]
 
 # Filter numbers greater than 15
@@ -18,7 +19,7 @@ squared_list = [num**2 for num in filtered_list]
 print("Filtered List:", filtered_list)
 print("Squared List:", squared_list)
 
-#Task:     create and manipulate the list
+#Task 3:   create and manipulate the list
 
 fruits = ["apple", "banana", "cherry", "date"]
 
@@ -28,7 +29,23 @@ fruits.remove("date")
 
 print("Final List:", fruits)
 
-#Task:       Sort a list of strings
+
+#Task 4 : Sort numbers in a list.
+
+# Given list of numbers
+numbers = [42, 12, 89, 33, 7]
+# Sorting in ascending order
+numbers.sort()
+print("Ascending Order:", numbers)
+# Sorting in descending order
+numbers.sort(reverse=True)
+print("Descending Order:", numbers)
+# Reversing the Previous list 
+numbers.reverse()
+print("Reversed List:", numbers)
+
+
+#Task 5:    Sort a list of strings
 
 names = ["Emma", "Olivia", "Liam", "Noah", "Sophia"]
 #for sorting the list
@@ -45,7 +62,7 @@ names.append("James")
 names.sort()
 print("Final Sorted List:", names)
 
-#Task:    Sort numbers and strings in descending order
+#Task 6:    Sort numbers and strings in descending order
 numbers = [50, 10, 70, 30, 90]
 numbers.sort(reverse=True)
 print("Descending Order (Numbers):", numbers)
@@ -53,6 +70,7 @@ print("Descending Order (Numbers):", numbers)
 #list of strings
 animals = ["dog", "cat", "zebra", "elephant", "ant"]
 
-# Sort in reverse order
+# Sorting in reverse order
 animals.sort(reverse=True)
 print("Reverse Alphabetical Order (Strings):", animals)
+
